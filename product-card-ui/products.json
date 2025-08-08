@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "AirFlex Sneakers",
+    "price": 89.99,
+    "image": "https://www.freepik.com/free-photo/fashion-shoes-sneakers_1123449.htm#fromView=search&page=1&position=26&uuid=db8efa88-803e-4c56-bb30-40ac0359a146&query=Sneakers",
+    "variants": ["Size 7", "Size 8", "Size 9", "Size 10"],
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Wool Jacket",
+    "price": 129.99,
+    "image": "https://www.freepik.com/free-photo/fashionable-woman-great-mood-posing-wooden-wall_12858216.htm#fromView=search&page=1&position=10&uuid=4c6cc420-a843-4f0c-b588-f929879add48&query=Wool+Jacket",
+    "variants": ["Small", "Medium", "Large"],
+    "inStock": false
+  }
+]

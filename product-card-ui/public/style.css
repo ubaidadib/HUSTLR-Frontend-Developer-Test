@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 0 20px;
+}
+
+/* Product Card */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.card .price {
+  font-size: 1.2rem;
+  color: #10b981;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.card select,
+.card input[type="number"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+}
+
+
+/* Buttons */
+.card button {
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button.add {
+  background-color: #3b82f6;
+  color: white;
+}
+
+button.add:hover {
+  background-color: #2563eb;
+}
+
+button.out {
+  background-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Toast Notification */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #10b981;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  opacity: 0.95;
+  transition: all 0.3s ease;
+}
+
+.toast.hidden {
+  display: none;
+}
